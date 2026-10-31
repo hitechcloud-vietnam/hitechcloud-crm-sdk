@@ -1,0 +1,21 @@
+{
+  "name": "@hitechcloud-vietnam/crm-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for the HiTechCloud CRM API",
+  "main": "server.js",
+  "bin": {
+    "hitechcloud-crm-mcp": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["hitechcloud", "crm", "mcp", "model-context-protocol", "ai"],
+  "author": "HiTechCloud Vietnam <support@hitechcloud.vn>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@hitechcloud-vietnam/crm-sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js/TypeScript SDK for the HiTechCloud CRM API",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node --test",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "hitechcloud",
+    "crm",
+    "api",
+    "sdk",
+    "typescript",
+    "sales",
+    "contacts",
+    "deals"
+  ],
+  "author": "HiTechCloud Vietnam <support@hitechcloud.vn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hitechcloud-vietnam/hitechcloud-crm-sdk.git",
+    "directory": "sdk/nodejs"
+  },
+  "homepage": "https://developers.hitechcloud.vn",
+  "bugs": {
+    "url": "https://github.com/hitechcloud-vietnam/hitechcloud-crm-sdk/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

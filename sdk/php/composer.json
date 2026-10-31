@@ -1,0 +1,39 @@
+{
+    "name": "hitechcloud-vietnam/crm-sdk",
+    "description": "Official PHP SDK for the HiTechCloud CRM API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["hitechcloud", "crm", "api", "sdk", "sales", "contacts", "deals"],
+    "homepage": "https://developers.hitechcloud.vn",
+    "authors": [
+        {
+            "name": "HiTechCloud Vietnam",
+            "email": "support@hitechcloud.vn"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HiTechCloud\\CRM\\": "src/"
+        },
+        "files": [
+            "src/Exceptions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HiTechCloud\\CRM\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable"
+}
